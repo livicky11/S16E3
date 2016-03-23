@@ -40,6 +40,49 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="dept-no" id="21713CB2-7D6A-281E-B7EB-FB952A179295">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-23 22:29:56 UTC</createdTime>
+<generatorID>3CF16DB6-1694-EC5C-8CDD-632B827753BC</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<engineerTo>
+<item key="EBA42FB1-051A-0834-5C65-E1B2CB94B70F" value="true"/>
+</engineerTo>
+<referedAttribute>7142586B-6479-875F-6ADD-796700073CFD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project-no1" id="83AADE33-8BFF-B1F0-C045-01EAC409D42D">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-23 22:30:39 UTC</createdTime>
+<generatorID>77AB6DF8-245C-D10D-C485-9D43BE3B5434</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<engineerTo>
+<item key="EBA42FB1-051A-0834-5C65-E1B2CB94B70F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EF3D0B89-10B5-75B3-82FC-92DED213AA9A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee-id" id="BDB3B93F-D5FF-908F-B99E-707A4718162F">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-23 22:31:57 UTC</createdTime>
+<generatorID>4C206A4A-224C-E1F3-736F-5EB1AE65F20D</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<engineerTo>
+<item key="EBA42FB1-051A-0834-5C65-E1B2CB94B70F" value="true"/>
+</engineerTo>
+<referedAttribute>0E5F3169-1785-C1C9-59E9-AD2FD2F3EDC7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="2BA7B2F0-D79C-239D-9E17-105714A88141" name="Project PK">

@@ -55,6 +55,20 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="employee-id1" id="4D7E4939-55B0-6785-3A7B-D4BA8F22B909">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-23 22:18:33 UTC</createdTime>
+<generatorID>5ABBE8D3-3AEF-E9AD-3724-3261D999E8CF</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<engineerTo>
+<item key="EBA42FB1-051A-0834-5C65-E1B2CB94B70F" value="true"/>
+</engineerTo>
+<referedAttribute>0E5F3169-1785-C1C9-59E9-AD2FD2F3EDC7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C963D421-4EC1-9061-955F-98BE6AD82951" name="Employee PK">
