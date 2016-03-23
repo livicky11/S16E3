@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8EE130DB-A6EA-EE0F-8C37-1C903075C8A3" name="Project">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-23 22:51:41 UTC</createdTime>
+<ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="project-no" id="84ACA55E-5E3B-6422-1AE1-60522E1CA2C0">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-23 22:51:46 UTC</createdTime>
+<ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project-title" id="44470BD4-0C28-54BD-3C4A-B7C92C91EE1D">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-23 22:51:58 UTC</createdTime>
+<ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end-date-month" id="0BB44C36-EA2E-FACB-C6C5-37BC7A66FFDC">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-23 22:52:08 UTC</createdTime>
+<ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end-date-day" id="5ED12C93-4449-014E-8F5F-9B4E7505CDB7">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-23 22:52:25 UTC</createdTime>
+<ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end-date-year" id="0D7A2D0E-4E81-F7D6-526F-98BB5EF35B04">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-23 22:52:37 UTC</createdTime>
+<ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="est-person-hours" id="C204169E-7299-7771-4D72-48797226C0AF">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-23 22:52:45 UTC</createdTime>
+<ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project-active" id="4D6EF452-991C-E890-1C8C-828DE65EBFF7">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-23 22:52:59 UTC</createdTime>
+<ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A977FFFB-58F7-EB9C-20A4-48A77D69FE84" name="Project PK">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-23 22:51:57 UTC</createdTime>
+<ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>84ACA55E-5E3B-6422-1AE1-60522E1CA2C0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

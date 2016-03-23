@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="B13EB3F9-2A43-FDCA-7022-9C57BB998A55" name="Departments" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="A755A651-34CA-3A74-6BE3-132B846FDE62" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="C221E5E6-5F32-089B-0D65-6794A572D7A8" name="Person" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="A755A651-34CA-3A74-6BE3-132B846FDE62" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="8EE130DB-A6EA-EE0F-8C37-1C903075C8A3" name="Project" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="A755A651-34CA-3A74-6BE3-132B846FDE62" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="2F3A9452-ED7B-D16B-FECA-2D461C96985F" name="employee-manager" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="A755A651-34CA-3A74-6BE3-132B846FDE62" propertySourceId="C221E5E6-5F32-089B-0D65-6794A572D7A8" propertyTargetId="C221E5E6-5F32-089B-0D65-6794A572D7A8"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
