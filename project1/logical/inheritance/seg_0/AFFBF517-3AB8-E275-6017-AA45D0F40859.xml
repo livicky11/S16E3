@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_5" directorySegmentName="seg_0" id="AFFBF517-3AB8-E275-6017-AA45D0F40859">
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_5" directorySegmentName="seg_0" id="AFFBF517-3AB8-E275-6017-AA45D0F40859">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-22 22:31:58 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>
@@ -15,4 +15,4 @@
 <targetEntity>DE646A76-3BA3-9D75-DFDB-74EEAD415300</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
-</Relation>
+</InheritanceRelation>

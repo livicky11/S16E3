@@ -83,6 +83,49 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="employee-id1" id="D3599BF6-5190-0936-DA0F-C1BD59493C5C">
+<createdBy>Ian</createdBy>
+<createdTime>2016-03-28 21:31:26 UTC</createdTime>
+<generatorID>88147B75-C485-7EBE-A376-A1CEAEAF6455</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<engineerTo>
+<item key="EBA42FB1-051A-0834-5C65-E1B2CB94B70F" value="true"/>
+</engineerTo>
+<referedAttribute>0E5F3169-1785-C1C9-59E9-AD2FD2F3EDC7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dept-no1" id="9393E64D-E043-35C1-90BE-13B4791A2CC9">
+<createdBy>Ian</createdBy>
+<createdTime>2016-03-28 21:35:00 UTC</createdTime>
+<generatorID>379EB8F0-DCE8-8151-68F3-5426A3AE47F2</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<engineerTo>
+<item key="EBA42FB1-051A-0834-5C65-E1B2CB94B70F" value="true"/>
+</engineerTo>
+<referedAttribute>7142586B-6479-875F-6ADD-796700073CFD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project-no2" id="5FE3B4FB-0E50-E18F-A92E-606DD6536AE0">
+<createdBy>Ian</createdBy>
+<createdTime>2016-03-28 21:35:43 UTC</createdTime>
+<generatorID>0F79582F-52C1-6473-E37F-9869825DB338</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<engineerTo>
+<item key="EBA42FB1-051A-0834-5C65-E1B2CB94B70F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EF3D0B89-10B5-75B3-82FC-92DED213AA9A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="2BA7B2F0-D79C-239D-9E17-105714A88141" name="Project PK">
