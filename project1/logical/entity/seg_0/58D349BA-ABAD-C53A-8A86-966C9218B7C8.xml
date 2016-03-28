@@ -43,33 +43,5 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dept-no1" id="D1B1392B-CBEA-5AA7-95D8-1BC6E645D25C">
-<createdBy>Ian</createdBy>
-<createdTime>2016-03-28 21:29:33 UTC</createdTime>
-<generatorID>DD568B1B-9C52-FC6B-5B62-98D1EA4A689B</generatorID>
-<ownerDesignName>project1</ownerDesignName>
-<engineerTo>
-<item key="EBA42FB1-051A-0834-5C65-E1B2CB94B70F" value="true"/>
-</engineerTo>
-<referedAttribute>7142586B-6479-875F-6ADD-796700073CFD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="project-no" id="DBD81B41-6C73-F287-F055-A4ED0D9A9717">
-<createdBy>Ian</createdBy>
-<createdTime>2016-03-28 21:31:02 UTC</createdTime>
-<generatorID>88147B75-C485-7EBE-A376-A1CEAEAF6455</generatorID>
-<ownerDesignName>project1</ownerDesignName>
-<engineerTo>
-<item key="EBA42FB1-051A-0834-5C65-E1B2CB94B70F" value="true"/>
-</engineerTo>
-<referedAttribute>EF3D0B89-10B5-75B3-82FC-92DED213AA9A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 </Entity>

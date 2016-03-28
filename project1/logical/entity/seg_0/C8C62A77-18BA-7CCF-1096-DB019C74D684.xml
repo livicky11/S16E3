@@ -69,20 +69,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="employee-id2" id="605F8F0B-8B88-F4C9-A8A4-7E5354EF2000">
-<createdBy>Ian</createdBy>
-<createdTime>2016-03-28 21:24:25 UTC</createdTime>
-<generatorID>1F5B0CEC-85ED-CD20-8EEB-15914C7C0D3B</generatorID>
-<ownerDesignName>project1</ownerDesignName>
-<engineerTo>
-<item key="EBA42FB1-051A-0834-5C65-E1B2CB94B70F" value="true"/>
-</engineerTo>
-<referedAttribute>0E5F3169-1785-C1C9-59E9-AD2FD2F3EDC7</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C963D421-4EC1-9061-955F-98BE6AD82951" name="Employee PK">
