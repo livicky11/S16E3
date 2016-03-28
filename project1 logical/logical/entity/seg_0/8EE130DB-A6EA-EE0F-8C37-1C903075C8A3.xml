@@ -149,6 +149,34 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="dept-no1" id="D39AB8C3-C6D6-35C1-4419-5D2942A8FF9C">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-28 22:00:59 UTC</createdTime>
+<generatorID>8E750D81-64A1-CF98-C399-79D088C0FE63</generatorID>
+<ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
+</engineerTo>
+<referedAttribute>3438D057-A4D7-C6EE-0472-32A54CA518E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="person_id1" id="803EDBB6-7D72-47DF-7EB7-FA40ACAF0532">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-28 22:03:46 UTC</createdTime>
+<generatorID>57A615F8-3A7B-4771-483E-3D4BB2FC44E4</generatorID>
+<ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
+</engineerTo>
+<referedAttribute>6CDE825E-F08B-51F1-A6EC-EF29489F88AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A977FFFB-58F7-EB9C-20A4-48A77D69FE84" name="Project PK">
