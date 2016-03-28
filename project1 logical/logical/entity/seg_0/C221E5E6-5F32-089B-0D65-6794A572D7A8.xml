@@ -202,6 +202,21 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="person_id2" id="F4804B59-D231-2B82-D676-306301866644">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-28 21:53:18 UTC</createdTime>
+<generatorID>71610D8F-FC11-5C3D-5A0A-93BA71F7D497</generatorID>
+<ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6CDE825E-F08B-51F1-A6EC-EF29489F88AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="589A4D82-58D4-6147-F8B5-5AD0B5DC9D8D" name="Person PK">
