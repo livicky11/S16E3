@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="end-date-month" id="EED00151-C152-1B25-9FA2-5A2F343C552E">
+<Attribute name="end_date_month" id="EED00151-C152-1B25-9FA2-5A2F343C552E">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-22 22:38:10 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>
@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="end-date-day" id="0612C1F0-BEDF-3A98-1C2A-B19315F638F7">
+<Attribute name="end_date_day" id="0612C1F0-BEDF-3A98-1C2A-B19315F638F7">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-22 22:38:27 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>
@@ -42,7 +42,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="end-date-year" id="93709D69-F2AB-39C8-57E3-A349B6D717E0">
+<Attribute name="end_date_year" id="93709D69-F2AB-39C8-57E3-A349B6D717E0">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-22 22:39:00 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>
@@ -55,7 +55,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="est-person-hours" id="51AB1664-7B6C-25F9-36A0-8CA9500B3F81">
+<Attribute name="est_person_hours" id="51AB1664-7B6C-25F9-36A0-8CA9500B3F81">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-22 22:39:27 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>

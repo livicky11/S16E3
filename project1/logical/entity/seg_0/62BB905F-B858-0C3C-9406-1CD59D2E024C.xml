@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="project-active" id="40C26005-157E-8DE2-74D0-90DA9DF9C474">
+<Attribute name="project_active" id="40C26005-157E-8DE2-74D0-90DA9DF9C474">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-22 22:36:57 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>

@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="employee-id" id="0E5F3169-1785-C1C9-59E9-AD2FD2F3EDC7">
+<Attribute name="employee_id" id="0E5F3169-1785-C1C9-59E9-AD2FD2F3EDC7">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-22 22:26:03 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>
@@ -41,7 +41,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="salary-exception" id="F42EECD5-0E65-5A04-21CD-FEBBE5212894">
+<Attribute name="salary_exception" id="F42EECD5-0E65-5A04-21CD-FEBBE5212894">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-22 22:26:40 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>
@@ -55,7 +55,7 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="employee-id1" id="4D7E4939-55B0-6785-3A7B-D4BA8F22B909">
+<Attribute name="employee_id1" id="4D7E4939-55B0-6785-3A7B-D4BA8F22B909">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:18:33 UTC</createdTime>
 <generatorID>5ABBE8D3-3AEF-E9AD-3724-3261D999E8CF</generatorID>
@@ -69,7 +69,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="employee-id2" id="7CC7A655-4923-841A-C153-145A9B65A4F5">
+<Attribute name="employee_id2" id="7CC7A655-4923-841A-C153-145A9B65A4F5">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-28 21:57:19 UTC</createdTime>
 <generatorID>147D0040-B83B-6349-8835-71E926D297C4</generatorID>

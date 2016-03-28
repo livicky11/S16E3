@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="dept-no" id="3438D057-A4D7-C6EE-0472-32A54CA518E5">
+<Attribute name="dept_no" id="3438D057-A4D7-C6EE-0472-32A54CA518E5">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:53:23 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dept-name" id="CF228168-E03C-036F-9967-06C7B78C529E">
+<Attribute name="dept_name" id="CF228168-E03C-036F-9967-06C7B78C529E">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:53:38 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>

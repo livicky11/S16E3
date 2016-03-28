@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="project-no" id="EF3D0B89-10B5-75B3-82FC-92DED213AA9A">
+<Attribute name="project_no" id="EF3D0B89-10B5-75B3-82FC-92DED213AA9A">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-22 22:35:05 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="project-title" id="1BC6F88A-58BC-EEF1-D61C-50BB12471A64">
+<Attribute name="project_title" id="1BC6F88A-58BC-EEF1-D61C-50BB12471A64">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-22 22:35:15 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>
@@ -40,7 +40,7 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dept-no" id="21713CB2-7D6A-281E-B7EB-FB952A179295">
+<Attribute name="dept_no" id="21713CB2-7D6A-281E-B7EB-FB952A179295">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:29:56 UTC</createdTime>
 <generatorID>3CF16DB6-1694-EC5C-8CDD-632B827753BC</generatorID>
@@ -54,7 +54,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="project-no1" id="83AADE33-8BFF-B1F0-C045-01EAC409D42D">
+<Attribute name="project_no1" id="83AADE33-8BFF-B1F0-C045-01EAC409D42D">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:30:39 UTC</createdTime>
 <generatorID>77AB6DF8-245C-D10D-C485-9D43BE3B5434</generatorID>
@@ -69,7 +69,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="employee-id" id="BDB3B93F-D5FF-908F-B99E-707A4718162F">
+<Attribute name="employee_id" id="BDB3B93F-D5FF-908F-B99E-707A4718162F">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:31:57 UTC</createdTime>
 <generatorID>4C206A4A-224C-E1F3-736F-5EB1AE65F20D</generatorID>
@@ -83,7 +83,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="employee-id1" id="7C467B3F-E36A-710F-E10D-9B06C7D085A8">
+<Attribute name="employee_id1" id="7C467B3F-E36A-710F-E10D-9B06C7D085A8">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-28 21:59:36 UTC</createdTime>
 <generatorID>DACCB7DB-7539-86CE-D1AD-3D63D1490D6B</generatorID>
@@ -97,7 +97,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dept-no1" id="ABCBCBB0-A4E3-3339-B46B-606E7C821694">
+<Attribute name="dept_no1" id="ABCBCBB0-A4E3-3339-B46B-606E7C821694">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-28 22:00:23 UTC</createdTime>
 <generatorID>5732BE94-514C-A0CD-06C2-0A00EB926062</generatorID>

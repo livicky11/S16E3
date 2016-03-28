@@ -129,18 +129,18 @@
 <lineWidth>1</lineWidth>
 <points>
 <point x="795" y="111"/>
-<point x="796" y="232"/>
+<point x="795" y="135"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="6CA28715-9CFD-EFD4-4ED5-F34414C1CA38" otype="Relation" vid_source="13D4439A-7CD9-906B-BCA8-E7C1A2C287D6" vid_target="13D4439A-7CD9-906B-BCA8-E7C1A2C287D6">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="793" y="18"/>
+<point x="793" y="62"/>
 <point x="767" y="18"/>
 <point x="744" y="86"/>
 <point x="724" y="110"/>
-<point x="793" y="110"/>
+<point x="794" y="111"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVInheritanceRelation" oid="762644E6-182A-21A2-AFD4-7A49E1AC9C54" otype="Hierarchy relation" vid_source="6384D50D-2254-1CBC-5007-E82CB56617D3" vid_target="A0B20C6C-E5F2-8F30-DCA0-53E69AE0B033">

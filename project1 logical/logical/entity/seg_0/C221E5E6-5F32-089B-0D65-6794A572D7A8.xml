@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="first-name" id="2AE30A1E-09DF-115B-879B-B7D6E14FDA30">
+<Attribute name="first_name" id="2AE30A1E-09DF-115B-879B-B7D6E14FDA30">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:44:49 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
@@ -40,7 +40,7 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="last-name" id="16525315-EA4E-9E76-12ED-6782409054E5">
+<Attribute name="last_name" id="16525315-EA4E-9E76-12ED-6782409054E5">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:45:04 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
@@ -79,7 +79,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="home-phone" id="63B11816-27A4-7CDA-678E-5333B4B3CD70">
+<Attribute name="home_phone" id="63B11816-27A4-7CDA-678E-5333B4B3CD70">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:45:29 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
@@ -92,7 +92,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="us-citizen" id="F9A4980F-7189-0701-CCAB-E7EE35982A40">
+<Attribute name="us_citizen" id="F9A4980F-7189-0701-CCAB-E7EE35982A40">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:45:36 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
@@ -103,8 +103,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="isFired" id="CCE1AEA6-6C96-A97F-A2C8-5EE79E5DA31D">
 <createdBy>vickyli</createdBy>
@@ -133,7 +132,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="employee-id" id="4F444D9B-9A8E-B7A8-C094-102DB6578A72">
+<Attribute name="employee_id" id="4F444D9B-9A8E-B7A8-C094-102DB6578A72">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:47:01 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
@@ -146,7 +145,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="salary-exception" id="82A591C7-1F51-7CAA-9BA1-1D0FA8B3BC92">
+<Attribute name="salary_exception" id="82A591C7-1F51-7CAA-9BA1-1D0FA8B3BC92">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:48:46 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
@@ -157,8 +156,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="bonus" id="2942663C-4380-7F6B-B1D3-1BCBED433153">
 <createdBy>vickyli</createdBy>
@@ -188,7 +186,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dept-no" id="F586FDC7-4348-02A4-409F-5B7879E1E7F4">
+<Attribute name="dept_no" id="F586FDC7-4348-02A4-409F-5B7879E1E7F4">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-28 21:24:36 UTC</createdTime>
 <generatorID>C2E06C57-7393-7E21-19FD-1D7402FC8830</generatorID>
@@ -232,7 +230,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dept-no1" id="B5FDA855-9990-006A-C824-B8EB10DCB3A7">
+<Attribute name="dept_no1" id="B5FDA855-9990-006A-C824-B8EB10DCB3A7">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-28 22:01:43 UTC</createdTime>
 <generatorID>BAE2ADBB-9C9B-6C17-E282-C4A83A21E014</generatorID>

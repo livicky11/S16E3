@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dept-no" id="A75E79F0-C321-D16D-B64A-D45775E0DE6B">
+<Attribute name="dept_no" id="A75E79F0-C321-D16D-B64A-D45775E0DE6B">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:24:00 UTC</createdTime>
 <generatorID>56FC7722-DE7F-0DC7-163D-F62EDB0588F1</generatorID>
@@ -43,7 +43,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dept-no1" id="7AD8E41B-4132-C524-4943-4B94B8DFE001">
+<Attribute name="dept_no1" id="7AD8E41B-4132-C524-4943-4B94B8DFE001">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-28 21:58:33 UTC</createdTime>
 <generatorID>D660CDF9-AAB3-30B1-400F-ACD068839B6E</generatorID>

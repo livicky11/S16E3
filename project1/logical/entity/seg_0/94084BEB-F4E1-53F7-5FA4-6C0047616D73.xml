@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="first-name" id="3B42B2F8-5A87-BDCF-BDFB-39B856B21A1C">
+<Attribute name="first_name" id="3B42B2F8-5A87-BDCF-BDFB-39B856B21A1C">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-22 22:22:04 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>
@@ -40,7 +40,7 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="last-name" id="A9FF348B-34C3-7AB5-3835-5FD8AB84D618">
+<Attribute name="last_name" id="A9FF348B-34C3-7AB5-3835-5FD8AB84D618">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-22 22:23:02 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>
@@ -79,7 +79,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="home-phone" id="81F05571-CC75-E6E9-9B56-E0B0BA4AEA1A">
+<Attribute name="home_phone" id="81F05571-CC75-E6E9-9B56-E0B0BA4AEA1A">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-22 22:24:10 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>
@@ -92,7 +92,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="us-citizen" id="293506E4-3089-1542-6F21-AA1D3462E153">
+<Attribute name="us_citizen" id="293506E4-3089-1542-6F21-AA1D3462E153">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-22 22:24:25 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>

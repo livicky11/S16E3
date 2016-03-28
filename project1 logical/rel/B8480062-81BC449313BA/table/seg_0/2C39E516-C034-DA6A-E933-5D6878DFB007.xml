@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C39E516-C034-DA6A-E933-5D6878DFB007" name="parent-child">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-28 22:21:11 UTC</createdTime>
+<generatorID>0CF4561A-6EEC-1D8E-AE6B-8F84AACD58D8</generatorID>
+<ownerDesignName>project1 logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Person_person_id" id="40DA2967-069F-BF8D-740F-D45D7CF3A1B9">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-28 22:21:11 UTC</createdTime>
+<generatorID>4411E9CB-248A-FB6D-5FC1-547AD4950536</generatorID>
+<ownerDesignName>project1 logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D43E7F63-0221-2927-A197-E20A0E7EA413" referredColumn="A9C4DD0F-3BF9-F8C9-D039-2FE5E9316669"/>
+</associations>
+</Column>
+<Column name="Person_person_id1" id="111BA513-89CC-0200-9905-BB15F7DEE12A">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-28 22:21:11 UTC</createdTime>
+<generatorID>E35292F3-9520-8502-ABE3-D502CADDF264</generatorID>
+<ownerDesignName>project1 logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F04EB52-134F-7E9D-F895-0AE91AC7F2A1" referredColumn="A9C4DD0F-3BF9-F8C9-D039-2FE5E9316669"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A4E09E2-A480-9A23-8712-9A5F1C62A666" name="parent-child_Person_FK">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-28 22:21:11 UTC</createdTime>
+<generatorID>E11B2B85-3DE2-C150-4E15-43C3983BCFCB</generatorID>
+<ownerDesignName>project1 logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40DA2967-069F-BF8D-740F-D45D7CF3A1B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2492C5A0-B46F-95E7-8F8D-AAE8A0129A2E" name="parent-child_Person_FKv1">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-03-28 22:21:11 UTC</createdTime>
+<generatorID>B86C8337-C2D9-2867-D027-0B75D2DC2B9E</generatorID>
+<ownerDesignName>project1 logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="111BA513-89CC-0200-9905-BB15F7DEE12A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
