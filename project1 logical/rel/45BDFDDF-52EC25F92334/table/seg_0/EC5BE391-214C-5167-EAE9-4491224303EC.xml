@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55CA6EBC-9AB6-A1B9-9BEF-037F313130D1" name="current-projects">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC5BE391-214C-5167-EAE9-4491224303EC" name="parent_child">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-03-28 22:21:11 UTC</createdTime>
-<generatorID>18639CE8-4024-21A2-129E-4D7C41F39073</generatorID>
+<createdTime>2016-03-29 00:01:48 UTC</createdTime>
+<generatorID>0CF4561A-6EEC-1D8E-AE6B-8F84AACD58D8</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Person_person_id" id="EDD7E47D-93C2-615C-652A-EE68365B755E">
+<Column name="Person_person_id" id="A599436A-BE28-9EE2-53D6-3A874AC4B7B7">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-03-28 22:21:11 UTC</createdTime>
-<generatorID>BFF3D873-2936-F45F-B4E1-81C496800831</generatorID>
+<createdTime>2016-03-29 00:01:48 UTC</createdTime>
+<generatorID>4411E9CB-248A-FB6D-5FC1-547AD4950536</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,13 +20,13 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="89717E9B-7D1D-8ED7-49C1-7AB5ABF93354" referredColumn="A9C4DD0F-3BF9-F8C9-D039-2FE5E9316669"/>
+<colAssociation fkAssociation="8EB679C3-EB38-F777-2176-FA0FE2C8BA6A" referredColumn="33731F4B-BA0B-00F2-873F-1445DD6194C3"/>
 </associations>
 </Column>
-<Column name="Project_project-no" id="5EECCE17-5BD1-889F-5BEA-1B849D9902AD">
+<Column name="Person_person_id1" id="5D098232-4D1B-8831-5CE3-1BC11670193F">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-03-28 22:21:11 UTC</createdTime>
-<generatorID>48D148AE-ABCE-934F-7382-6038EA48614C</generatorID>
+<createdTime>2016-03-29 00:01:48 UTC</createdTime>
+<generatorID>E35292F3-9520-8502-ABE3-D502CADDF264</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,31 +35,31 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C31DF459-BE58-06F9-1157-A3BC3D92E458" referredColumn="1119E14F-F704-3B24-EB07-A11A5BDD12FF"/>
+<colAssociation fkAssociation="2CEADC6A-BC90-19F0-E2ED-CCE3C0E5AB69" referredColumn="33731F4B-BA0B-00F2-873F-1445DD6194C3"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="56CA12DA-1E82-1CEB-4B19-C176FE9F6A0C" name="current-projects_Person_FK">
+<ind_PK_UK id="1B793726-D620-A63B-90DE-5AB5C549FC75" name="parent_child_Person_FK">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-03-28 22:21:11 UTC</createdTime>
-<generatorID>6EC2922F-115B-705A-13EA-C0580393789A</generatorID>
+<createdTime>2016-03-29 00:01:48 UTC</createdTime>
+<generatorID>E11B2B85-3DE2-C150-4E15-43C3983BCFCB</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EDD7E47D-93C2-615C-652A-EE68365B755E"/>
+<colUsage columnID="A599436A-BE28-9EE2-53D6-3A874AC4B7B7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="777FF901-9F64-473B-7BD9-5F4D5F577A71" name="current-projects_Project_FK">
+<ind_PK_UK id="5ECEB065-65D2-2EFA-AF03-FDC090A47249" name="parent_child_Person_FKv1">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-03-28 22:21:11 UTC</createdTime>
-<generatorID>F10239B3-7F0C-D0C0-B8B1-8591CD3BED8D</generatorID>
+<createdTime>2016-03-29 00:01:48 UTC</createdTime>
+<generatorID>B86C8337-C2D9-2867-D027-0B75D2DC2B9E</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5EECCE17-5BD1-889F-5BEA-1B849D9902AD"/>
+<colUsage columnID="5D098232-4D1B-8831-5CE3-1BC11670193F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
