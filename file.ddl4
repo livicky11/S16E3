@@ -18,6 +18,7 @@ SELECT
     us_citizen,
     isFired,
     salary,
+    person_id1,
     type
 FROM Person where type = 'Previous_Employee' ;
 
@@ -26,7 +27,6 @@ create or replace TRIGGER Previous_Employee_trigger
      FOR EACH ROW
 BEGIN
     insert into Person( 
-	
 		person_id,
     first_name,
     last_name,
@@ -36,8 +36,8 @@ BEGIN
     us_citizen,
     isFired,
     salary,
+     person_id1,
     type)
-  
 		 VALUES ( 
 		:NEW.person_id,
    :NEW.first_name,
@@ -48,6 +48,7 @@ BEGIN
     :NEW.us_citizen,
     :NEW.isFired,
     :NEW.salary,
+     :NEW.person_id1,
     'Previous_Employee') ;
 END;
 /
@@ -66,15 +67,14 @@ SELECT
     salary_exception,
     employee_id1,
     employee_id2,
+     person_id1,
     type
 FROM Person where type = 'Employee' ;
-
 create or replace TRIGGER Employee_trigger
      INSTEAD OF insert ON Employee_view
      FOR EACH ROW
 BEGIN
     insert into Person( 
-	
 		person_id,
     first_name,
     last_name,
@@ -87,8 +87,8 @@ BEGIN
     salary_exception,
     employee_id1,
     employee_id2,
+     person_id1,
     type)
-  
 		 VALUES ( 
 		:NEW.person_id,
    :NEW.first_name,
@@ -102,6 +102,7 @@ BEGIN
     :NEW.salary_exception,
     :NEW.employee_id1,
     :NEW.employee_id2,
+     :NEW.person_id1,
     'Employee') ;
 END;
 /
@@ -123,6 +124,7 @@ SELECT
     bonus,
     dept_no,
     dept_no1,
+     person_id1,
     type
 FROM Person where type = 'Manager' ;
 
@@ -131,7 +133,6 @@ create or replace TRIGGER Manager_trigger
      FOR EACH ROW
 BEGIN
     insert into Person( 
-	
 		person_id,
     first_name,
     last_name,
@@ -147,8 +148,8 @@ BEGIN
     bonus,
     dept_no,
     dept_no1,
-    type)
-  
+     person_id1,
+    type)  
 		 VALUES ( 
 		:NEW.person_id,
    :NEW.first_name,
@@ -165,6 +166,7 @@ BEGIN
     :NEW.bonus,
     :NEW.dept_no,
     :NEW.dept_no1,
+    :NEW.person_id1,
     'Manager') ;
 END;
 /
@@ -186,6 +188,7 @@ SELECT
     bonus,
     dept_no,
     dept_no1,
+     person_id1,
     type
 FROM Person where type = 'President' ;
 
@@ -194,7 +197,6 @@ create or replace TRIGGER President_trigger
      FOR EACH ROW
 BEGIN
     insert into Person( 
-	
 		person_id,
     first_name,
     last_name,
@@ -210,8 +212,8 @@ BEGIN
     bonus,
     dept_no,
     dept_no1,
+     person_id1,
     type)
-  
 		 VALUES ( 
 		:NEW.person_id,
    :NEW.first_name,
@@ -228,6 +230,7 @@ BEGIN
     :NEW.bonus,
     :NEW.dept_no,
     :NEW.dept_no1,
+    :NEW.person_id1,
     'President') ;
 END;
 /
@@ -249,15 +252,15 @@ SELECT
     bonus,
     dept_no,
     dept_no1,
+     person_id1,
     type
 FROM Person where type = 'Interim_Manager' ;
 
-create or replace TRIGGER Interim_Managerr_trigger
+create or replace TRIGGER Interim_Manager_trigger
      INSTEAD OF insert ON Interim_Manager_view
      FOR EACH ROW
 BEGIN
-    insert into Person( 
-	
+    insert into Person( 	
 		person_id,
     first_name,
     last_name,
@@ -273,8 +276,8 @@ BEGIN
     bonus,
     dept_no,
     dept_no1,
+     person_id1,
     type)
-  
 		 VALUES ( 
 		:NEW.person_id,
    :NEW.first_name,
@@ -291,6 +294,7 @@ BEGIN
     :NEW.bonus,
     :NEW.dept_no,
     :NEW.dept_no1,
+     :NEW.person_id1,
     'Interim_Manager') ;
 END;
 /
@@ -309,6 +313,7 @@ SELECT
     salary_exception,
     employee_id1,
     employee_id2,
+     person_id1,
     type
 FROM Person where type = 'Project-Employee' ;
 
@@ -330,6 +335,7 @@ BEGIN
     salary_exception,
     employee_id1,
     employee_id2,
+     person_id1,
     type)
   
 		 VALUES ( 
@@ -345,6 +351,7 @@ BEGIN
     :NEW.salary_exception,
     :NEW.employee_id1,
     :NEW.employee_id2,
+    :NEW.person_id1,
     'Project-Employee') ;
 END;
 /
@@ -367,7 +374,6 @@ create or replace TRIGGER Current_Project_trigger
      FOR EACH ROW
 BEGIN
     insert into Project( 
-	
 		project_no,
     project_title,
     deptno,
@@ -377,7 +383,6 @@ BEGIN
     dept_no1,
     project_active,
     type)
-  
 		 VALUES ( 
 		:NEW.project_no,
     :NEW.project_title,
@@ -412,7 +417,6 @@ create or replace TRIGGER Previous_Project_trigger
      FOR EACH ROW
 BEGIN
     insert into Project( 
-	
 		project_no,
     project_title,
     deptno,
@@ -425,7 +429,6 @@ BEGIN
     end_date_year,
     est_person_hours,
     type)
-  
 		 VALUES ( 
 		:NEW.project_no,
     :NEW.project_title,
