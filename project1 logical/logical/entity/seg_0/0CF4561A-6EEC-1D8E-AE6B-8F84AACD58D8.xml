@@ -3,9 +3,6 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-28 21:27:56 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -20,23 +17,17 @@
 <createdTime>2016-03-28 21:28:11 UTC</createdTime>
 <generatorID>E11B2B85-3DE2-C150-4E15-43C3983BCFCB</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
-</engineerTo>
 <referedAttribute>6CDE825E-F08B-51F1-A6EC-EF29489F88AE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="person_id1" id="E35292F3-9520-8502-ABE3-D502CADDF264">
+<Attribute name="person_id1" id="0B7AA5CE-BC77-4B3B-7FDB-86F8B600A585">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-03-28 21:28:19 UTC</createdTime>
-<generatorID>B86C8337-C2D9-2867-D027-0B75D2DC2B9E</generatorID>
+<createdTime>2016-04-04 21:56:12 UTC</createdTime>
+<generatorID>0B40B8D5-66CA-EFF6-5C41-F70721779AD1</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
-</engineerTo>
 <referedAttribute>6CDE825E-F08B-51F1-A6EC-EF29489F88AE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

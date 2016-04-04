@@ -43,19 +43,5 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dept_no1" id="7AD8E41B-4132-C524-4943-4B94B8DFE001">
-<createdBy>vickyli</createdBy>
-<createdTime>2016-03-28 21:58:33 UTC</createdTime>
-<generatorID>D660CDF9-AAB3-30B1-400F-ACD068839B6E</generatorID>
-<ownerDesignName>project1</ownerDesignName>
-<engineerTo>
-<item key="EBA42FB1-051A-0834-5C65-E1B2CB94B70F" value="true"/>
-</engineerTo>
-<referedAttribute>7142586B-6479-875F-6ADD-796700073CFD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 </Entity>

@@ -3,9 +3,6 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:51:41 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="45BDFDDF-70A4-2BCD-6254-52EC25F92334" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:51:46 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="45BDFDDF-70A4-2BCD-6254-52EC25F92334" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -31,9 +25,6 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:51:58 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="45BDFDDF-70A4-2BCD-6254-52EC25F92334" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,9 +35,6 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:52:08 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="45BDFDDF-70A4-2BCD-6254-52EC25F92334" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,9 +45,6 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:52:25 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="45BDFDDF-70A4-2BCD-6254-52EC25F92334" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,9 +55,6 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:52:37 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="45BDFDDF-70A4-2BCD-6254-52EC25F92334" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -83,9 +65,6 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:52:45 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="45BDFDDF-70A4-2BCD-6254-52EC25F92334" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -96,9 +75,6 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:52:59 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="45BDFDDF-70A4-2BCD-6254-52EC25F92334" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -110,9 +86,6 @@
 <createdTime>2016-03-28 21:19:26 UTC</createdTime>
 <generatorID>69B6F394-DE27-F1FC-90ED-36F3F903B594</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="45BDFDDF-70A4-2BCD-6254-52EC25F92334" value="true"/>
-</engineerTo>
 <referedAttribute>3438D057-A4D7-C6EE-0472-32A54CA518E5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -124,39 +97,8 @@
 <createdTime>2016-03-28 21:23:22 UTC</createdTime>
 <generatorID>74AC5F39-DAC4-B67C-C8EE-50DFAD34B6F5</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="45BDFDDF-70A4-2BCD-6254-52EC25F92334" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>84ACA55E-5E3B-6422-1AE1-60522E1CA2C0</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="person_id" id="BFE80357-9BCF-9CAC-0F4A-5F0BA9901429">
-<createdBy>vickyli</createdBy>
-<createdTime>2016-03-28 21:24:08 UTC</createdTime>
-<generatorID>ACFCB201-B081-7604-5F95-E1E73C7AF723</generatorID>
-<ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="45BDFDDF-70A4-2BCD-6254-52EC25F92334" value="true"/>
-</engineerTo>
-<referedAttribute>6CDE825E-F08B-51F1-A6EC-EF29489F88AE</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="dept_no1" id="D39AB8C3-C6D6-35C1-4419-5D2942A8FF9C">
-<createdBy>vickyli</createdBy>
-<createdTime>2016-03-28 22:00:59 UTC</createdTime>
-<generatorID>8E750D81-64A1-CF98-C399-79D088C0FE63</generatorID>
-<ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="45BDFDDF-70A4-2BCD-6254-52EC25F92334" value="true"/>
-</engineerTo>
-<referedAttribute>3438D057-A4D7-C6EE-0472-32A54CA518E5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -167,9 +109,6 @@
 <createdTime>2016-03-28 22:03:46 UTC</createdTime>
 <generatorID>57A615F8-3A7B-4771-483E-3D4BB2FC44E4</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="45BDFDDF-70A4-2BCD-6254-52EC25F92334" value="true"/>
-</engineerTo>
 <referedAttribute>6CDE825E-F08B-51F1-A6EC-EF29489F88AE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -180,9 +119,6 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-29 00:01:17 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="45BDFDDF-70A4-2BCD-6254-52EC25F92334" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -195,9 +131,6 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:51:57 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="45BDFDDF-70A4-2BCD-6254-52EC25F92334" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>84ACA55E-5E3B-6422-1AE1-60522E1CA2C0</attributeRef>

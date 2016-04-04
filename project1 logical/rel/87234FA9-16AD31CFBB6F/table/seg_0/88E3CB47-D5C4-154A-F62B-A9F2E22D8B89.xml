@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88E3CB47-D5C4-154A-F62B-A9F2E22D8B89" name="current_projects">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<generatorID>18639CE8-4024-21A2-129E-4D7C41F39073</generatorID>
+<ownerDesignName>project1 logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Person_person_id" id="4E54F147-2980-F7C3-B4D0-7856664D1871">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<generatorID>BFF3D873-2936-F45F-B4E1-81C496800831</generatorID>
+<ownerDesignName>project1 logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="191D5403-EB9E-0379-A8D1-6EE9E63B0954" referredColumn="D5085AF3-B4E5-3E3A-AA93-22D9DFD4A8B8"/>
+</associations>
+</Column>
+<Column name="Project_project_no" id="C8FEB9A3-68C8-8AD2-0CF8-FED9EBCDE8E5">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<generatorID>48D148AE-ABCE-934F-7382-6038EA48614C</generatorID>
+<ownerDesignName>project1 logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6E8FC5A-3003-4C0B-96AB-ADA098CF0DC0" referredColumn="6AF59900-0A2F-229A-00AE-743CA77247E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDDDEE00-FB26-D054-C33D-899C31D3E5B2" name="current_projects_Person_FK">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<generatorID>6EC2922F-115B-705A-13EA-C0580393789A</generatorID>
+<ownerDesignName>project1 logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E54F147-2980-F7C3-B4D0-7856664D1871"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="878F760C-ACBD-76DA-BA0E-97F2E9672A7B" name="current_projects_Project_FK">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<generatorID>F10239B3-7F0C-D0C0-B8B1-8591CD3BED8D</generatorID>
+<ownerDesignName>project1 logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8FEB9A3-68C8-8AD2-0CF8-FED9EBCDE8E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
