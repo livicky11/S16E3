@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64FF00F1-3923-16B7-2ABF-0181F9EF13E0" name="parent_child">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9473BE3-932A-6787-E582-5136DC19B0EB" name="parent_child">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>0CF4561A-6EEC-1D8E-AE6B-8F84AACD58D8</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Person_person_id" id="1FBAABD5-D53A-FE0C-91A8-F6657BC4AD9F">
+<Column name="Person_person_id" id="D0A996C1-BB35-CB4B-3801-D26011AAB9E0">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>4411E9CB-248A-FB6D-5FC1-547AD4950536</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,12 +20,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="3AEA4362-11D2-E154-AC66-39F066B4FE80" referredColumn="D5085AF3-B4E5-3E3A-AA93-22D9DFD4A8B8"/>
+<colAssociation fkAssociation="D98EB8B3-2692-AFA5-D9B3-94D866EAD977" referredColumn="42F83CC2-539A-0AE9-5887-7AD1081C4171"/>
 </associations>
 </Column>
-<Column name="Person_person_id1" id="2F34D676-0695-6EC2-F6DA-BAB34114DDBB">
+<Column name="Person_person_id1" id="E4E57D6F-D658-D890-B673-A34B926C1130">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>0B7AA5CE-BC77-4B3B-7FDB-86F8B600A585</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -35,31 +35,31 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="0115D6F1-C568-2BB2-A53F-DAA0E6422314" referredColumn="D5085AF3-B4E5-3E3A-AA93-22D9DFD4A8B8"/>
+<colAssociation fkAssociation="E21B047F-8AFF-B9C5-FAEF-39C179199FE6" referredColumn="42F83CC2-539A-0AE9-5887-7AD1081C4171"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="349942DB-00CF-AE88-5965-BDC49E88EA88" name="parent_child_Person_FK">
+<ind_PK_UK id="5512D048-803B-3A54-C578-E60C6089150B" name="parent_child_Person_FK">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>E11B2B85-3DE2-C150-4E15-43C3983BCFCB</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1FBAABD5-D53A-FE0C-91A8-F6657BC4AD9F"/>
+<colUsage columnID="D0A996C1-BB35-CB4B-3801-D26011AAB9E0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2BCE41F5-4B70-719F-0A6C-90DA882D9B07" name="parent_child_Person_FKv1">
+<ind_PK_UK id="92B38DB2-9A05-3D1A-80B9-D64F7D4C29C4" name="parent_child_Person_FKv1">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>0B40B8D5-66CA-EFF6-5C41-F70721779AD1</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2F34D676-0695-6EC2-F6DA-BAB34114DDBB"/>
+<colUsage columnID="E4E57D6F-D658-D890-B673-A34B926C1130"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

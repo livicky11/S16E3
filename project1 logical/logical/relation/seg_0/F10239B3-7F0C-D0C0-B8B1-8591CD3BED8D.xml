@@ -4,12 +4,12 @@
 <createdTime>2016-03-28 21:29:39 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
 <engineerTo>
-<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
+<item key="87234FA9-F9C7-787F-6D11-16AD31CFBB6F" value="true"/>
 </engineerTo>
 <sourcePk>A977FFFB-58F7-EB9C-20A4-48A77D69FE84</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>8EE130DB-A6EA-EE0F-8C37-1C903075C8A3</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

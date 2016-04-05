@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F591F92-4485-C4A1-B1F2-7E0B5DB4FD0D" name="Person">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C4F4B43-7AA4-95EC-56C9-C689252EFB74" name="Person">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>C221E5E6-5F32-089B-0D65-6794A572D7A8</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="person_id" id="D5085AF3-B4E5-3E3A-AA93-22D9DFD4A8B8">
+<Column name="person_id" id="42F83CC2-539A-0AE9-5887-7AD1081C4171">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>6CDE825E-F08B-51F1-A6EC-EF29489F88AE</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="first_name" id="9B9E7CE9-B92B-9709-4486-0D7FDBDAB10B">
+<Column name="first_name" id="1A0A8223-17E2-D736-2FF8-4C95DE4FED10">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>2AE30A1E-09DF-115B-879B-B7D6E14FDA30</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -31,9 +31,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="last_name" id="074074F8-6B67-4640-7D66-F6E208349389">
+<Column name="last_name" id="A0340E3F-6AF9-1CA2-FEEF-C95D80082DC8">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>16525315-EA4E-9E76-12ED-6782409054E5</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -43,9 +43,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="home_address" id="642B7333-4A41-5CA8-5478-02BAB230B25B">
+<Column name="home_address" id="67FD5A94-D912-F7C0-542B-95B7E2EE018B">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>CA1EFA77-B8AF-8412-5EC6-C05799862B39</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -55,9 +55,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="zipcode" id="C7DE3C2C-2723-8CE4-3229-FA3551F1E018">
+<Column name="zipcode" id="C86C75E3-E608-D222-BC90-BCB01BE9EE0C">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>C8AC4A0C-4F7A-85FB-EAA6-252B912FFAB6</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -67,9 +67,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="home_phone" id="269DA871-B824-5B3F-C9B0-4165572B3B25">
+<Column name="home_phone" id="68EF2C99-B2F1-0449-F07B-F34F1234C19B">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>63B11816-27A4-7CDA-678E-5333B4B3CD70</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -79,9 +79,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="us_citizen" id="D73594ED-FC55-272F-9785-C00A834887B2">
+<Column name="us_citizen" id="51071E1B-42C3-EC83-4E93-2122FCCAD304">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>F9A4980F-7189-0701-CCAB-E7EE35982A40</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -91,9 +91,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="isFired" id="CF1DD805-3209-FFFB-378E-060495A6FC43">
+<Column name="isFired" id="95BD13A4-4284-EE2D-FF98-533DCF14E25F">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>CCE1AEA6-6C96-A97F-A2C8-5EE79E5DA31D</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -104,9 +104,9 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="salary" id="30CC2C80-4F00-5D6C-DE4C-791D58CBFA07">
+<Column name="salary" id="17DBB436-D6AC-3BD4-545E-53A84F97E133">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>139E0B03-C79C-6905-DF8B-E0463171E7F1</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -116,9 +116,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="employee_id" id="7F150A8F-4933-1799-BD00-BAFDF2CA9FE4">
+<Column name="employee_id" id="C82300C7-880D-8311-B9A9-4748C0FB35C3">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>4F444D9B-9A8E-B7A8-C094-102DB6578A72</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -128,9 +128,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="salary_exception" id="1613B984-BCF9-3B27-98B7-F87BF7B9FEB1">
+<Column name="salary_exception" id="608C0060-4AF5-1641-1581-9333ED1A0677">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>82A591C7-1F51-7CAA-9BA1-1D0FA8B3BC92</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -140,9 +140,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="bonus" id="54B514EB-7E85-C4B3-0A41-263D4C3A098F">
+<Column name="bonus" id="CDD11362-4DCB-5EA8-756E-C0E735A8C09B">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>2942663C-4380-7F6B-B1D3-1BCBED433153</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -152,26 +152,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Person_person_id" id="6396FE51-C8CF-DF49-7161-2C37F43C07E7">
+<Column name="Departments_dept_no" id="D00C3629-A961-A609-2469-A52C2AFAAC59">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
-<generatorID>830519EC-5182-826D-6719-F6003C106570</generatorID>
-<ownerDesignName>project1 logical</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="169E4B94-7F6B-4005-DB4E-C6D380DF0E78" referredColumn="D5085AF3-B4E5-3E3A-AA93-22D9DFD4A8B8"/>
-</associations>
-</Column>
-<Column name="Departments_dept_no" id="4C0DC1D1-F356-E300-EC0E-46F29E30BD80">
-<createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>F586FDC7-4348-02A4-409F-5B7879E1E7F4</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -179,14 +165,15 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="702824A5-9510-0550-82D3-044A454A9C68" referredColumn="15014509-FB06-9B13-0342-18D17038A41E"/>
+<colAssociation fkAssociation="62A03BA8-6AE0-59C5-6A85-DB1AA9A29BFB" referredColumn="4E05848D-D969-A2A0-80D3-4699F6AC97C0"/>
 </associations>
 </Column>
-<Column name="Person_person_id1" id="D17DD493-9A77-5EE8-4BAD-7E1E28847318">
+<Column name="Person_person_id1" id="EC59780C-CCA2-20BD-ADE8-0A5AA756B3BB">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>F4804B59-D231-2B82-D676-306301866644</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -194,12 +181,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="95E0B155-9CA3-1090-63EE-76F055A7B195" referredColumn="D5085AF3-B4E5-3E3A-AA93-22D9DFD4A8B8"/>
+<colAssociation fkAssociation="036603A0-0AD8-969C-7E35-F492CBC70B11" referredColumn="42F83CC2-539A-0AE9-5887-7AD1081C4171"/>
 </associations>
 </Column>
-<Column name="type" id="A0E76A54-95B6-111D-DA4F-46FA89E9463A">
+<Column name="type" id="0620E743-E050-36C6-371E-FEB94D6DE26B">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>CA967DAA-8F0A-52E4-893C-412A60A1A1EA</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -209,62 +196,78 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Person_person_id" id="ADD865DB-83F4-4291-86B9-6DCF852B3434">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
+<generatorID>92B5DAAA-EF58-4E70-62C5-649712497107</generatorID>
+<ownerDesignName>project1 logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="209D30AE-B097-739D-54FE-9A5014E18903" referredColumn="42F83CC2-539A-0AE9-5887-7AD1081C4171"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="EB784576-E9E2-D165-B867-9BAF6892E1B6" name="Person_PK">
+<ind_PK_UK id="BEA5E8E9-1763-8887-60B3-D65E4FCE13BE" name="Person_PK">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>589A4D82-58D4-6147-F8B5-5AD0B5DC9D8D</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D5085AF3-B4E5-3E3A-AA93-22D9DFD4A8B8"/>
+<colUsage columnID="42F83CC2-539A-0AE9-5887-7AD1081C4171"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1AD5F24C-1E5B-08EB-7552-F4F028A7B9A2" name="Person__IDX">
+<ind_PK_UK id="8A0CEC1F-BD49-9DBA-814A-CC25D733CD6A" name="Person__IDX">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>71610D8F-FC11-5C3D-5A0A-93BA71F7D497</relationGeneratorID>
 <indexColumnUsage>
-<colUsage columnID="D17DD493-9A77-5EE8-4BAD-7E1E28847318"/>
+<colUsage columnID="EC59780C-CCA2-20BD-ADE8-0A5AA756B3BB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5FF5356A-9CEB-028B-5647-EB9E5330A1BC" name="Person_Person_FK">
+<ind_PK_UK id="623A87C0-2DF2-6D07-14D9-95E55C4254D5" name="Person_Departments_FK">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
-<generatorID>2F3A9452-ED7B-D16B-FECA-2D461C96985F</generatorID>
-<ownerDesignName>project1 logical</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="6396FE51-C8CF-DF49-7161-2C37F43C07E7"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="F2DF3286-4019-6EDE-FB78-235BA73E8178" name="Person_Departments_FK">
-<createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>C2E06C57-7393-7E21-19FD-1D7402FC8830</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4C0DC1D1-F356-E300-EC0E-46F29E30BD80"/>
+<colUsage columnID="D00C3629-A961-A609-2469-A52C2AFAAC59"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D8F34BE6-C60C-63F3-5B67-EEAD6667FA23" name="Person_Person_FKv1">
+<ind_PK_UK id="CC30FD2A-E6B0-51E4-16ED-47EA3D54099D" name="Person_Person_FK">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-04 22:16:05 UTC</createdTime>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
+<generatorID>7933B5DC-5603-A7B3-C9DC-538B22110491</generatorID>
+<ownerDesignName>project1 logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADD865DB-83F4-4291-86B9-6DCF852B3434"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65C82C85-DDFF-878D-7ABA-16DD8BAF0BB9" name="Person_Person_FKv1">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-04-05 23:07:20 UTC</createdTime>
 <generatorID>71610D8F-FC11-5C3D-5A0A-93BA71F7D497</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D17DD493-9A77-5EE8-4BAD-7E1E28847318"/>
+<colUsage columnID="EC59780C-CCA2-20BD-ADE8-0A5AA756B3BB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
