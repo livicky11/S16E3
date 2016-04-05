@@ -3,6 +3,9 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:44:24 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:44:34 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -25,6 +31,9 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:44:49 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,6 +44,9 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:45:04 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,6 +57,9 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:45:12 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -55,6 +70,9 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:45:22 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -65,6 +83,9 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:45:29 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -75,6 +96,9 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:45:36 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -85,6 +109,9 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:45:49 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -96,6 +123,9 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:46:53 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -106,6 +136,9 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:47:01 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -116,6 +149,9 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:48:46 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -126,6 +162,9 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:50:56 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -137,6 +176,9 @@
 <createdTime>2016-03-23 23:02:00 UTC</createdTime>
 <generatorID>2F3A9452-ED7B-D16B-FECA-2D461C96985F</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>6CDE825E-F08B-51F1-A6EC-EF29489F88AE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -149,6 +191,9 @@
 <createdTime>2016-03-28 21:24:36 UTC</createdTime>
 <generatorID>C2E06C57-7393-7E21-19FD-1D7402FC8830</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
 <referedAttribute>3438D057-A4D7-C6EE-0472-32A54CA518E5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -160,6 +205,9 @@
 <createdTime>2016-03-28 21:53:18 UTC</createdTime>
 <generatorID>71610D8F-FC11-5C3D-5A0A-93BA71F7D497</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>6CDE825E-F08B-51F1-A6EC-EF29489F88AE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -171,10 +219,28 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-28 23:31:35 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="person_id3" id="92B5DAAA-EF58-4E70-62C5-649712497107">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-04-04 22:51:45 UTC</createdTime>
+<generatorID>7933B5DC-5603-A7B3-C9DC-538B22110491</generatorID>
+<ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6CDE825E-F08B-51F1-A6EC-EF29489F88AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -183,6 +249,9 @@
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:44:48 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="CE06D0D7-1446-7D09-8799-530193FAC3E1" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>6CDE825E-F08B-51F1-A6EC-EF29489F88AE</attributeRef>
