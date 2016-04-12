@@ -111,7 +111,7 @@ SELECT
     salary,
     salary_exception,
     bonus,
-    Departments_dept_no,
+    Departments_dept_id,
     type
 FROM Person where type = 'Manager' ;
 
@@ -131,7 +131,7 @@ BEGIN
     salary,
     salary_exception,
     bonus,
-    Departments_dept_no,
+    Departments_dept_id,
     type)  
 		 VALUES ( 
 		:NEW.person_id,
@@ -145,7 +145,7 @@ BEGIN
     :NEW.salary,
     :NEW.salary_exception,
     :NEW.bonus,
-    :NEW.Departments_dept_no,
+    :NEW.Departments_dept_id,
     'Manager') ;
 END;
 /
@@ -298,6 +298,7 @@ END;
 
 create view Current_Project_view as
 SELECT 
+    project_id,
     project_no,
     project_title,
     project_active,
@@ -309,11 +310,13 @@ create or replace TRIGGER Current_Project_trigger
      FOR EACH ROW
 BEGIN
     insert into Project( 
+    project_id,
 		project_no,
     project_title,
     project_active,
     type)
 		 VALUES ( 
+     :NEW.project_id,
 		:NEW.project_no,
     :NEW.project_title,
     :NEW.project_active,
@@ -323,6 +326,7 @@ END;
 
 create view Previous_Project_view as
 SELECT 
+    project_id,
     project_no,
     project_title,
     end_date_month,
@@ -337,6 +341,7 @@ create or replace TRIGGER Previous_Project_trigger
      FOR EACH ROW
 BEGIN
     insert into Project( 
+    project_id,
 		project_no,
     project_title,
     end_date_month,
@@ -345,6 +350,7 @@ BEGIN
     est_person_hours,
     type)
 		 VALUES ( 
+    :NEW.project_id,
 		:NEW.project_no,
     :NEW.project_title,
     :NEW.end_date_month,

@@ -11,7 +11,7 @@ create or replace trigger Departments_PK_trig
 before insert on Departments
 for each row 
 begin 
-select Departments_seq.nextval into :new.dept_no from dual; 
+select Departments_seq.nextval into :new.dept_id from dual; 
 end; 
 /
 
@@ -45,26 +45,26 @@ create or replace trigger Project_PK_trig
 before insert on Project
 for each row 
 begin 
-select Project_seq.nextval into :new.project_no from dual; 
+select Project_seq.nextval into :new.project_id from dual; 
 end; 
 /
 
-DROP INDEX Departments_dept_no_FK_0 ;
-CREATE INDEX Departments_dept_no_FK_0 ON Person(Departments_dept_no) ;
+DROP INDEX Departments_dept_id_FK_0 ;
+CREATE INDEX Departments_dept_id_FK_0 ON Person(Departments_dept_id) ;
 DROP INDEX Person_person_id_FK_1 ;
 CREATE INDEX Person_person_id_FK_1 ON Person(Person_person_id) ;
 DROP INDEX Person_person_id1_FK_2 ;
 CREATE INDEX Person_person_id1_FK_2 ON Person(Person_person_id1) ;
-DROP INDEX Departments_dept_no_FK_3 ;
-CREATE INDEX Departments_dept_no_FK_3 ON Project(Departments_dept_no) ;
+DROP INDEX Departments_dept_id_FK_3 ;
+CREATE INDEX Departments_dept_id_FK_3 ON Project(Departments_dept_id) ;
 DROP INDEX Person_person_id_FK_4 ;
 CREATE INDEX Person_person_id_FK_4 ON Project(Person_person_id) ;
-DROP INDEX Project_project_no_FK_5 ;
-CREATE INDEX Project_project_no_FK_5 ON Project(Project_project_no) ;
+DROP INDEX Project_project_id_FK_5 ;
+CREATE INDEX Project_project_id_FK_5 ON Project(Project_project_id) ;
 DROP INDEX Person_person_id_FK_6 ;
 CREATE INDEX Person_person_id_FK_6 ON current_projects(Person_person_id) ;
-DROP INDEX Project_project_no_FK_7 ;
-CREATE INDEX Project_project_no_FK_7 ON current_projects(Project_project_no) ;
+DROP INDEX Project_project_id_FK_7 ;
+CREATE INDEX Project_project_id_FK_7 ON current_projects(Project_project_id) ;
 DROP INDEX Person_person_id_FK_8 ;
 CREATE INDEX Person_person_id_FK_8 ON parent_child(Person_person_id) ;
 DROP INDEX Person_person_id1_FK_9 ;

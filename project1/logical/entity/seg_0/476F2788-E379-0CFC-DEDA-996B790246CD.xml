@@ -15,6 +15,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="project_id" id="7558DAF5-7A47-3476-6A33-2268FC1CE60F">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-04-12 00:57:59 UTC</createdTime>
+<ownerDesignName>project1</ownerDesignName>
+<engineerTo>
+<item key="EBA42FB1-051A-0834-5C65-E1B2CB94B70F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="project_no" id="EF3D0B89-10B5-75B3-82FC-92DED213AA9A">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-22 22:35:05 UTC</createdTime>
@@ -22,6 +34,7 @@
 <engineerTo>
 <item key="EBA42FB1-051A-0834-5C65-E1B2CB94B70F" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -38,20 +51,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="dept_no" id="21713CB2-7D6A-281E-B7EB-FB952A179295">
-<createdBy>vickyli</createdBy>
-<createdTime>2016-03-23 22:29:56 UTC</createdTime>
-<generatorID>3CF16DB6-1694-EC5C-8CDD-632B827753BC</generatorID>
-<ownerDesignName>project1</ownerDesignName>
-<engineerTo>
-<item key="EBA42FB1-051A-0834-5C65-E1B2CB94B70F" value="true"/>
-</engineerTo>
-<referedAttribute>7142586B-6479-875F-6ADD-796700073CFD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="project_no1" id="83AADE33-8BFF-B1F0-C045-01EAC409D42D">
@@ -83,6 +82,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="dept_id" id="AF984F05-1D0D-9E4F-6169-AB1022FAC659">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-04-12 00:58:36 UTC</createdTime>
+<generatorID>3CF16DB6-1694-EC5C-8CDD-632B827753BC</generatorID>
+<ownerDesignName>project1</ownerDesignName>
+<engineerTo>
+<item key="EBA42FB1-051A-0834-5C65-E1B2CB94B70F" value="true"/>
+</engineerTo>
+<referedAttribute>38DACD6C-A489-8BC0-179A-7B6192C76BC2</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="2BA7B2F0-D79C-239D-9E17-105714A88141" name="Project PK">
@@ -94,7 +106,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>EF3D0B89-10B5-75B3-82FC-92DED213AA9A</attributeRef>
+<attributeRef>7558DAF5-7A47-3476-6A33-2268FC1CE60F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

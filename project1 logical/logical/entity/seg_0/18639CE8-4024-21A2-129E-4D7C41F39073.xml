@@ -4,7 +4,7 @@
 <createdTime>2016-03-28 21:29:15 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
 <engineerTo>
-<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
+<item key="D3C380BC-6518-CF1E-2511-54435F07EEFD" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,24 +21,25 @@
 <generatorID>6EC2922F-115B-705A-13EA-C0580393789A</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <engineerTo>
-<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
+<item key="D3C380BC-6518-CF1E-2511-54435F07EEFD" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>6CDE825E-F08B-51F1-A6EC-EF29489F88AE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="project_no" id="48D148AE-ABCE-934F-7382-6038EA48614C">
+<Attribute name="project_id" id="FB3B29EB-5166-70AE-08DF-DB8D5B632D4C">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-03-28 21:29:39 UTC</createdTime>
+<createdTime>2016-04-12 00:48:04 UTC</createdTime>
 <generatorID>F10239B3-7F0C-D0C0-B8B1-8591CD3BED8D</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <engineerTo>
-<item key="B8480062-5EAF-C279-092B-81BC449313BA" value="true"/>
+<item key="D3C380BC-6518-CF1E-2511-54435F07EEFD" value="true"/>
 </engineerTo>
-<referedAttribute>84ACA55E-5E3B-6422-1AE1-60522E1CA2C0</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F3935145-B0F5-CF8A-076E-4D24DEDA389A</referedAttribute>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>

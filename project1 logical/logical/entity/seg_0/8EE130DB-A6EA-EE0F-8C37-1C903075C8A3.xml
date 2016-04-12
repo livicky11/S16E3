@@ -4,7 +4,7 @@
 <createdTime>2016-03-23 22:51:41 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
 <engineerTo>
-<item key="87234FA9-F9C7-787F-6D11-16AD31CFBB6F" value="true"/>
+<item key="D3C380BC-6518-CF1E-2511-54435F07EEFD" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,13 +15,26 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="project_id" id="F3935145-B0F5-CF8A-076E-4D24DEDA389A">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-04-12 00:47:54 UTC</createdTime>
+<ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="D3C380BC-6518-CF1E-2511-54435F07EEFD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="project_no" id="84ACA55E-5E3B-6422-1AE1-60522E1CA2C0">
 <createdBy>vickyli</createdBy>
 <createdTime>2016-03-23 22:51:46 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
 <engineerTo>
-<item key="87234FA9-F9C7-787F-6D11-16AD31CFBB6F" value="true"/>
+<item key="D3C380BC-6518-CF1E-2511-54435F07EEFD" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -32,7 +45,7 @@
 <createdTime>2016-03-23 22:51:58 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
 <engineerTo>
-<item key="87234FA9-F9C7-787F-6D11-16AD31CFBB6F" value="true"/>
+<item key="D3C380BC-6518-CF1E-2511-54435F07EEFD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,7 +58,7 @@
 <createdTime>2016-03-23 22:52:08 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
 <engineerTo>
-<item key="87234FA9-F9C7-787F-6D11-16AD31CFBB6F" value="true"/>
+<item key="D3C380BC-6518-CF1E-2511-54435F07EEFD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,7 +71,7 @@
 <createdTime>2016-03-23 22:52:25 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
 <engineerTo>
-<item key="87234FA9-F9C7-787F-6D11-16AD31CFBB6F" value="true"/>
+<item key="D3C380BC-6518-CF1E-2511-54435F07EEFD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -71,7 +84,7 @@
 <createdTime>2016-03-23 22:52:37 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
 <engineerTo>
-<item key="87234FA9-F9C7-787F-6D11-16AD31CFBB6F" value="true"/>
+<item key="D3C380BC-6518-CF1E-2511-54435F07EEFD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -84,7 +97,7 @@
 <createdTime>2016-03-23 22:52:45 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
 <engineerTo>
-<item key="87234FA9-F9C7-787F-6D11-16AD31CFBB6F" value="true"/>
+<item key="D3C380BC-6518-CF1E-2511-54435F07EEFD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -97,27 +110,12 @@
 <createdTime>2016-03-23 22:52:59 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
 <engineerTo>
-<item key="87234FA9-F9C7-787F-6D11-16AD31CFBB6F" value="true"/>
+<item key="D3C380BC-6518-CF1E-2511-54435F07EEFD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="dept_no" id="6CF5E0E2-D4B0-08BC-9B89-2EFC71A73E90">
-<createdBy>vickyli</createdBy>
-<createdTime>2016-03-28 21:19:26 UTC</createdTime>
-<generatorID>69B6F394-DE27-F1FC-90ED-36F3F903B594</generatorID>
-<ownerDesignName>project1 logical</ownerDesignName>
-<engineerTo>
-<item key="87234FA9-F9C7-787F-6D11-16AD31CFBB6F" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>3438D057-A4D7-C6EE-0472-32A54CA518E5</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="project_no1" id="6B9DECC2-85E0-94CB-03ED-9C141F8C0651">
@@ -126,7 +124,7 @@
 <generatorID>74AC5F39-DAC4-B67C-C8EE-50DFAD34B6F5</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <engineerTo>
-<item key="87234FA9-F9C7-787F-6D11-16AD31CFBB6F" value="true"/>
+<item key="D3C380BC-6518-CF1E-2511-54435F07EEFD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>84ACA55E-5E3B-6422-1AE1-60522E1CA2C0</referedAttribute>
@@ -141,7 +139,7 @@
 <generatorID>57A615F8-3A7B-4771-483E-3D4BB2FC44E4</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <engineerTo>
-<item key="87234FA9-F9C7-787F-6D11-16AD31CFBB6F" value="true"/>
+<item key="D3C380BC-6518-CF1E-2511-54435F07EEFD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>6CDE825E-F08B-51F1-A6EC-EF29489F88AE</referedAttribute>
@@ -155,12 +153,26 @@
 <createdTime>2016-03-29 00:01:17 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
 <engineerTo>
-<item key="87234FA9-F9C7-787F-6D11-16AD31CFBB6F" value="true"/>
+<item key="D3C380BC-6518-CF1E-2511-54435F07EEFD" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dept_id" id="78BBEEA2-0ACC-737E-8F59-8917AB6D5081">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-04-12 00:46:58 UTC</createdTime>
+<generatorID>69B6F394-DE27-F1FC-90ED-36F3F903B594</generatorID>
+<ownerDesignName>project1 logical</ownerDesignName>
+<engineerTo>
+<item key="D3C380BC-6518-CF1E-2511-54435F07EEFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>35B5E808-8CFF-6202-8381-08A4780B7C3E</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -170,11 +182,11 @@
 <createdTime>2016-03-23 22:51:57 UTC</createdTime>
 <ownerDesignName>project1 logical</ownerDesignName>
 <engineerTo>
-<item key="87234FA9-F9C7-787F-6D11-16AD31CFBB6F" value="true"/>
+<item key="D3C380BC-6518-CF1E-2511-54435F07EEFD" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>84ACA55E-5E3B-6422-1AE1-60522E1CA2C0</attributeRef>
+<attributeRef>F3935145-B0F5-CF8A-076E-4D24DEDA389A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
