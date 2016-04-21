@@ -260,6 +260,7 @@ SELECT
     employee_id,
     salary,
     salary_exception,
+    employee_pno,
     type
 FROM Person where type = 'Project-Employee' ;
 
@@ -279,6 +280,7 @@ BEGIN
     employee_id,
     salary,
     salary_exception,
+    employee_pno,
     type)
   
 		 VALUES ( 
@@ -292,6 +294,7 @@ BEGIN
     :NEW.employee_id,
     :NEW.salary,
     :NEW.salary_exception,
+    :NEW.employee_pno,
     'Project-Employee') ;
 END;
 /
@@ -302,6 +305,7 @@ SELECT
     project_no,
     project_title,
     project_active,
+    project_completed,
     type
 FROM Project where type = 'Current-Project' ;
 
@@ -314,12 +318,14 @@ BEGIN
 		project_no,
     project_title,
     project_active,
+    project_completed,
     type)
 		 VALUES ( 
      :NEW.project_id,
 		:NEW.project_no,
     :NEW.project_title,
     :NEW.project_active,
+    :NEW.project_completed,
     'Current-Project') ;
 END;
 /

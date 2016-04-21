@@ -1,19 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30FB0CA7-7F4B-1F97-B105-9C0DE06F936A" name="current_projects">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A70731E-6291-3F2E-C418-9CD7ED6EA024" name="parent_child">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-12 00:51:49 UTC</createdTime>
-<generatorID>18639CE8-4024-21A2-129E-4D7C41F39073</generatorID>
+<createdTime>2016-04-20 23:03:33 UTC</createdTime>
+<generatorID>0CF4561A-6EEC-1D8E-AE6B-8F84AACD58D8</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Person_person_id" id="BD3B5494-07B2-F30A-A8B1-CF61ADBDCDF2">
+<Column name="Person_person_id" id="32635E04-0ED9-AA54-9194-4C12E70F60B1">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-12 00:51:49 UTC</createdTime>
-<generatorID>BFF3D873-2936-F45F-B4E1-81C496800831</generatorID>
+<createdTime>2016-04-20 23:03:33 UTC</createdTime>
+<generatorID>4411E9CB-248A-FB6D-5FC1-547AD4950536</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -21,15 +20,14 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="AE7E054A-DDC3-FDC5-4A15-422202DB64DE" referredColumn="ED92D144-63CB-4AF2-BAAA-CAA435D0DE42"/>
+<colAssociation fkAssociation="B2D3479C-29C0-FA5F-4CD8-95408BAD2D94" referredColumn="0A99052E-B657-96EB-8AF6-0D6326497432"/>
 </associations>
 </Column>
-<Column name="Project_project_id" id="8D1ADFC7-FFE1-8525-65B5-97D7F3D6F2E1">
+<Column name="Person_person_id1" id="146099A5-95E3-B272-6AB2-4B5D218C5923">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-12 00:51:49 UTC</createdTime>
-<generatorID>FB3B29EB-5166-70AE-08DF-DB8D5B632D4C</generatorID>
+<createdTime>2016-04-20 23:03:33 UTC</createdTime>
+<generatorID>0B7AA5CE-BC77-4B3B-7FDB-86F8B600A585</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -37,31 +35,31 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C6C195F1-EE4D-4F25-6441-538B108C9D50" referredColumn="415091B3-7126-1C0E-D020-C264AFFC4C4D"/>
+<colAssociation fkAssociation="3A3A9987-537A-211A-1157-B7408D3BE917" referredColumn="0A99052E-B657-96EB-8AF6-0D6326497432"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4307B413-8495-21A8-A998-383A9DEC4B63" name="current_projects_Person_FK">
+<ind_PK_UK id="484E77CF-D667-9917-90DD-915ED781BFCD" name="parent_child_Person_FK">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-12 00:51:49 UTC</createdTime>
-<generatorID>6EC2922F-115B-705A-13EA-C0580393789A</generatorID>
+<createdTime>2016-04-20 23:03:33 UTC</createdTime>
+<generatorID>E11B2B85-3DE2-C150-4E15-43C3983BCFCB</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BD3B5494-07B2-F30A-A8B1-CF61ADBDCDF2"/>
+<colUsage columnID="32635E04-0ED9-AA54-9194-4C12E70F60B1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="44CFDAD8-B6C8-6C40-C1A6-DB06B7F9F7E3" name="current_projects_Project_FK">
+<ind_PK_UK id="6E3D0E5C-8982-9462-1E02-64429B5E738F" name="parent_child_Person_FKv1">
 <createdBy>vickyli</createdBy>
-<createdTime>2016-04-12 00:51:49 UTC</createdTime>
-<generatorID>F10239B3-7F0C-D0C0-B8B1-8591CD3BED8D</generatorID>
+<createdTime>2016-04-20 23:03:33 UTC</createdTime>
+<generatorID>0B40B8D5-66CA-EFF6-5C41-F70721779AD1</generatorID>
 <ownerDesignName>project1 logical</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8D1ADFC7-FFE1-8525-65B5-97D7F3D6F2E1"/>
+<colUsage columnID="146099A5-95E3-B272-6AB2-4B5D218C5923"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

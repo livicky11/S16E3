@@ -4,7 +4,7 @@
 <createdTime>2016-03-22 22:27:20 UTC</createdTime>
 <ownerDesignName>project1</ownerDesignName>
 <engineerTo>
-<item key="EBA42FB1-051A-0834-5C65-E1B2CB94B70F" value="true"/>
+<item key="AB921BC7-7593-1061-1252-76B507AFCBEA" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,4 +15,19 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="employee_pno" id="1D0CF5CD-A643-295E-D618-3D0A4C90BA1D">
+<createdBy>vickyli</createdBy>
+<createdTime>2016-04-20 22:54:32 UTC</createdTime>
+<ownerDesignName>project1</ownerDesignName>
+<engineerTo>
+<item key="AB921BC7-7593-1061-1252-76B507AFCBEA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>
