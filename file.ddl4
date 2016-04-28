@@ -261,6 +261,7 @@ SELECT
     salary,
     salary_exception,
     employee_pno,
+    Person_person_id,
     type
 FROM Person where type = 'Project-Employee' ;
 
@@ -281,6 +282,7 @@ BEGIN
     salary,
     salary_exception,
     employee_pno,
+    Person_person_id,
     type)
   
 		 VALUES ( 
@@ -295,6 +297,7 @@ BEGIN
     :NEW.salary,
     :NEW.salary_exception,
     :NEW.employee_pno,
+    :NEW.Person_person_id,
     'Project-Employee') ;
 END;
 /
